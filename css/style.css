@@ -1,0 +1,125 @@
+*:focus {
+	outline: 0;
+	outline: none;
+}
+
+a {
+	color: inherit;
+}
+
+body {
+    background-color: white;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav-wrapper a{
+	color: black;
+}
+
+.brand-logo {
+	margin-left: 15px;
+}
+
+@font-face {
+	font-family: mvBoli;
+	src: url(../fonts/mvboli.ttf);
+}
+
+.brand-logo-text {
+	font-family: mvBoli;
+}
+
+/*NAVBAR*/
+.main-nav-scrolled {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 150;
+}
+
+.main-nav {
+	position: fixed;
+	top: 0;
+	z-index: 150;
+}
+
+/*INTRO SECTION */
+
+.intro-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	padding-top: 100px;
+	background: url('../images/landing_image2.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.profile-img {
+	height: 30vh;
+	width: auto;
+	border-radius: 50%;
+}
+
+.intro-description {
+	text-align: center;
+	color: white;
+	width: 50%;
+}
+
+.intro-description > * {
+	text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;
+}
+
+.down-arrow {
+	position: relative;
+	bottom: 0;
+	color: white;
+	text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;
+}
+
+
+/*ABOUT SECTION*/
+.about-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+	background-color: red;
+}
+
+/*PROJECTS SECTION*/
+
+.projects-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background: url('../images/project_bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.projects-section h2 {
+	color: white;
+	padding: 50px 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

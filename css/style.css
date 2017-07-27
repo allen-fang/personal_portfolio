@@ -57,12 +57,12 @@ body {
 	height: 100vh;
 	width: 100%;
 	padding-top: 100px;
-	background: url('../images/landing_image3.jpg') no-repeat center center fixed;
+	background: url('../images/landing_image3-2.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
 
 .profile-img {
-	height: 30vh;
+	height: 250px;
 	width: auto;
 	border-radius: 50%;
 }
@@ -70,7 +70,7 @@ body {
 .intro-description {
 	text-align: center;
 	color: white;
-	width: 80%;
+	width: 100%;
 }
 
 .intro-name {
@@ -78,14 +78,15 @@ body {
 }
 
 .intro-description > * {
-	text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;
+	/*text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;*/
 }
 
 .down-arrow {
 	position: relative;
 	bottom: 0;
 	color: white;
-	text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;
+	padding-top: 30px;
+	/*text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;*/
 }
 
 
@@ -98,6 +99,19 @@ body {
 	align-items: center;
 	padding: 50px 0px;
 	width: 80%;
+}
+
+.about-section p {
+	font-size: 120%;
+}
+
+.about-sub {
+	display: flex;
+	
+}
+
+.link {
+	text-decoration: underline;
 }
 
 /*PROJECTS SECTION*/

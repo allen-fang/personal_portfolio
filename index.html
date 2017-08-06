@@ -2,17 +2,18 @@
 <html>
 <head>
 	<title>Allen Fang</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-	<nav class="main-nav">
+	<!-- <nav class="main-nav">
 		<div class="nav-wrapper white">
 			<a href="#home" class="brand-logo"><span class="brand-logo-text">AF</span></a>
 			<ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -21,7 +22,7 @@
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</div>
-	</nav>
+	</nav> -->
 	<div class="wrapper">
 		<div id="home" class="intro-section">
 			<div class="intro-description">
@@ -38,8 +39,10 @@
 				<div class="col s12 m8 about-description">
 					<p>Hello, my name is Allen. I'm a Bay Area native and I'm aspiring to become a web developer.</p>
 					<p>During my final year of completing a Bachelor's degree in biology at University of California, Santa Barbara, I decided to take a year of computer science classes and ended up enjoying them enough to pursue the subject after graduation. Since then I have explored several techinologies behind both web and app development. </p>
-					<p>If you'd like to read more about my work, check out my <a href="https://github.com/allenfangsb" target="_blank"><i class="fa fa-github"></i> <span class="link">GitHub</span></a>, <a href="https://www.linkedin.com/in/allen-fang-a067a1118/" target="_blank"><i class="fa fa-linkedin-square"></i> <span class="link">LinkedIn</span></a>, or download my <a href="./assets/resume-july2017.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> <span class="link">resume</span></a></p>
-					<p>If you have a spot on your team or would just like to chat, you can contact me at <a href="mailto:allenfang08@gmail.com"><i class="fa fa-envelope"></i> <span class="link">allenfang08@gmail.com</span></a>.</p>
+					<p>If you'd like to read more about my work, check out the following links:</p> 
+					<p class="icon-links"> <a href="https://github.com/allenfangsb" target="_blank"><i class="fa fa-github fa-2x"></i> <span class="link">GitHub</span></a> <a href="https://www.linkedin.com/in/allen-fang-a067a1118/" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i> <span class="link">LinkedIn</span></a> <a href="./assets/resume-july2017.pdf" target="_blank"><i class="fa fa-file-pdf-o fa-2x"></i> <span class="link">Resume</span></a></p>
+					<p>If you have a spot on your team or would just like to chat, you can contact me at</p> 
+					<p class="icon-links"> <a href="mailto:allenfang08@gmail.com"><i class="fa fa-envelope fa-2x"></i> <span class="link">allenfang08@gmail.com</span></a></p>
 				</div>
 			</div>
 		</div>
@@ -48,37 +51,38 @@
 			<div class="project-cards">
 				<div class="row">
 				    <div class="col s12 m6">
-				      	<div class="card">
+				      	<div class="card z-depth-5">
 				        	<div class="card-image">
-				          		<img src="images/project_bg.jpg">
-				          		<span class="card-title">Card Title</span>
-				          		<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">info_outline</i></a>
+				          		<img src="images/house-planner/house_planner_landing.jpg">
+				          		<span class="card-title">House Planner</span>
 				        	</div>
-					        <div class="card-content">
-					          	<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+					        <div class="card-action card-links">
+					          	<a href="https://github.com/allenfangsb/house_planner" target="_blank">GITHUB REPO</a>
+					          	<a href="http://house-planner.allenfang.com" target="_blank">LIVE DEMO</a>
+					          	<a href="">MORE INFO</a>
 					        </div>
 				      	</div>
 				    </div>
 				    <div class="col s12 m6">
-				      	<div class="card">
+				      	<div class="card z-depth-5">
 				        	<div class="card-image">
-				          		<img src="images/project_bg.jpg">
-				          		<span class="card-title">Card Title</span>
-				          		<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">info_outline</i></a>
+				          		<img src="images/react-flashcards/react_flashcards_landing.jpg">
+				          		<span class="card-title" style="color: black;">React Flashcards</span>
 				        	</div>
-					        <div class="card-content">
-					          	<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+					        <div class="card-action card-links">
+					          	<a href="https://github.com/allenfangsb/react-flashcards" target="_blank">GITHUB REPO</a>
+					          	<a href="http://react-flashcards.allenfang.com" target="_blank">LIVE DEMO</a>
+					          	<a href="">MORE INFO</a>
 					        </div>
 				      	</div>
 				    </div>
 				</div>
 				<div class="row">
 				     <div class="col s12 m6">
-				      	<div class="card">
+				      	<div class="card z-depth-5">
 				        	<div class="card-image">
 				          		<img src="images/project_bg.jpg">
 				          		<span class="card-title">Card Title</span>
-				          		<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">info_outline</i></a>
 				        	</div>
 					        <div class="card-content">
 					          	<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
@@ -86,12 +90,11 @@
 				      	</div>
 				    </div>
 				     <div class="col s12 m6">
-				      	<div class="card">
-				        	<div class="card-image">
+				      	<div class="card z-depth-5">
+				        	<div class="card-image card-parent">
 				          		<img src="images/project_bg.jpg">
 				          		<span class="card-title">Card Title</span>
-				          		<a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">info_outline</i></a>
-				        	</div>
+				          	</div>
 					        <div class="card-content">
 					          	<p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
 					        </div>

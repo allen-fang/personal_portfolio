@@ -54,9 +54,9 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 50vh;
 	width: 100%;
-	padding-top: 100px;
+/*	padding-top: 20px;*/
 	background: url('../images/landing_image3-2.jpg') no-repeat center center fixed;
 	background-size: cover;
 }
@@ -89,6 +89,14 @@ body {
 	/*text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;*/
 }
 
+.link-icons {
+	
+}
+
+.link-icons i {
+	background-color: white;
+	border-radius: 50%;
+}
 
 /*ABOUT SECTION*/
 .about-section {
@@ -97,7 +105,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 50px 0px;
+	padding: 40px 0px 20px;
 	width: 80%;
 }
 
@@ -107,11 +115,17 @@ body {
 
 .about-sub {
 	display: flex;
-	
+	align-items: center;
 }
 
 .link {
 	text-decoration: underline;
+	font-size: 2rem;
+}
+
+.icon-links {
+	display: flex;
+	justify-content: space-around;
 }
 
 /*PROJECTS SECTION*/
@@ -121,14 +135,53 @@ body {
 	width: 100%;
 	background: url('../images/project_bg.jpg') no-repeat center center fixed;
 	background-size: cover;
+	padding-bottom: 100px;
 }
 
 .projects-section h2 {
 	text-align: center;
 	margin: 0 auto;
 	color: white;
-	padding: 130px 0 40px;
+	padding: 100px 0 40px;
 }
+
+.project-cards {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.card-parent{
+	position:relative;
+}
+
+.btn-mid {
+	position: absolute;
+	top: 0;
+	margin-top: 45%;
+	z-index: 10;
+}
+
+.btn-left {
+	margin-top: -150px;
+}
+
+.reactcards {
+	color: black;
+}
+
+.card-links {
+	display: flex;
+	justify-content: space-around;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+	color: black;
+	margin-right: 0;
+	border: 1px solid;
+	padding: 4px 10px;
+	border-radius: 5px;
+}
+
 
 
 

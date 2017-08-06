@@ -31,7 +31,7 @@ $('a[href*="#"]')
         console.log(target[0].className);
         event.preventDefault();
         $('html, body').animate({
-          scrollTop: target.offset().top - $(window).height()/3 + hdr
+          scrollTop: target.offset().top - $(window).height()/4
         }, 1000, function() {
           // Callback after animation
           // Must change focus!

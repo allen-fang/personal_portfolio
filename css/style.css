@@ -54,7 +54,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 50vh;
+	height: 60vh;
 	width: 100%;
 /*	padding-top: 20px;*/
 	background: url('../images/landing_image3-2.jpg') no-repeat center center fixed;
@@ -89,10 +89,6 @@ body {
 	/*text-shadow: -2px 0 gray, 0 2px gray, 2px 0 gray, 0 -2px gray;*/
 }
 
-.link-icons {
-	
-}
-
 .link-icons i {
 	background-color: white;
 	border-radius: 50%;
@@ -113,6 +109,11 @@ body {
 	font-size: 120%;
 }
 
+.about-links {
+	display: flex;
+	justify-content: space-between;
+}
+
 .about-sub {
 	display: flex;
 	align-items: center;
@@ -123,10 +124,15 @@ body {
 	font-size: 2rem;
 }
 
-.icon-links {
+.about-text {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+/*.icon-links {
 	display: flex;
 	justify-content: space-around;
-}
+}*/
 
 /*PROJECTS SECTION*/
 
@@ -183,13 +189,42 @@ body {
 }
 
 .card-bg {
-	height: 400px;
+	object-fit: cover;
+	height: 275px;
 }
 
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
 
+/** FOOTER **/
 
+.footer {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	padding: 40px 0px 30px;
+	width: 70%;
+}
 
+.footer-icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 0.2s;
+}
 
+.footer-icons:hover {
+	transform: scale(1.2);
+}
 
 
 
